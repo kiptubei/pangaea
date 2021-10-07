@@ -6,7 +6,7 @@ As part of the Pangaea subscription service we must create a back-end server app
 
 Please note that this repository only contains source code for the  back-end server application as depicted in the Architecture diagram below .For the push service and web client follow the link below.
 
-Part 2 can be found [here](`https://github.com/kiptubei/Pangaea-WebPush.git`)
+Part 2 can be found [here](https://github.com/kiptubei/Pangaea-WebPush.git)
 
 # Project Specification
 
@@ -18,7 +18,7 @@ For a detailed description of the assignement please refer to the ![task documen
 
 - The application is made up of the parts:
  * Web Client
- * Push Server [source](https://github.com/kiptubei/Pangaea-WebPush.git`)
+ * Push Server [source](https://github.com/kiptubei/Pangaea-WebPush.git)
  * Api Server / Back-end 
  
 - The web client will register a service work and get back subscription notification from our push service.
