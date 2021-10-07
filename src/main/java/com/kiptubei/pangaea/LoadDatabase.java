@@ -27,5 +27,13 @@ public class LoadDatabase {
       log.info("Preloading " + repository.save(new Subscriber("http://localhost:9000/test2")));
     };
   }
+  
+  @Bean
+  CommandLineRunner initDatabase2(PublishRepository repository2) {
+
+    return args -> {
+      log.info("Preloading " + repository2.save(new Publish("Nice to be here")));
+    };
+  }
     
 }
