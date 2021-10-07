@@ -8,9 +8,15 @@ package com.kiptubei.pangaea;
  *
  * @author mkiptubei
  */
+import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 interface PublishRepository extends JpaRepository<Publish, Long> {
     
+      List<Publish> findByTopic(String topic);
+      
+      Publish findFirstByOrderByIdDesc();
+      
+	
 }
 

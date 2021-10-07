@@ -5,4 +5,4 @@ curl -X POST -H "Content-Type: application/json" -d '{ "url": "http://localhost:
 
 curl -X POST -H "Content-Type: application/json" -d '{"message": "hello"}' http://localhost:8000/publish/topic1
 
-
+curl -v http://localhost:8000/publish/topic1
