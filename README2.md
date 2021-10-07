@@ -6,7 +6,7 @@ As part of the Pangaea subscription service we must create a back-end server app
 
 Please note that this repository only contains source code for the  back-end server application as depicted in the Architecture diagram below .For the push service and web client follow the link below.
 
-Part 2 can be found [here](`https://github.com/kiptubei/Pangaea-WebPush.git`)
+Part 1 can be found [here](`https://github.com/kiptubei/Pangaea-WebPush.git`)
 
 # Project Specification
 
@@ -18,8 +18,8 @@ For a detailed description of the assignement please refer to the ![task documen
 
 - The application is made up of the parts:
  * Web Client
- * Push Server [source](https://github.com/kiptubei/Pangaea-WebPush.git`)
- * Api Server / Back-end 
+ * Push Server
+ * Api Server / Back-end [pangaea backend source](https://github.com/kiptubei/pangaea.git)
  
 - The web client will register a service work and get back subscription notification from our push service.
 
@@ -53,8 +53,7 @@ For a detailed description of the assignement please refer to the ![task documen
 - Fork/Clone the Push Service to your local machine from `https://github.com/kiptubei/Pangaea-WebPush.git` for PART 2
 - Open the project in Apache Netbeans
 - Clean and Build with Dependencies
-- Run the projects
-- Part 1 will run on port 8000 and Part 2 on port 9000
+- Run the project
 
 - Execute `.\start-server.sh`
 
